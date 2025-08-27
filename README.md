@@ -2,7 +2,7 @@
 
 ## Student Information
 - **Name:** Omaatla Kgosinkwe
-- **Student Number:** st10497107@rcconnect.edu.za
+- **Student Number:** st10497107@rcconect.edu.za
 
 ## Project Overview
 **Organization Overview:**  
