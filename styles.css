@@ -1,0 +1,24 @@
+/*CSS STYLING FOR ALL THE BODY ELEMENTS OF MY PAGES*/
+
+body {
+    font-family:'Lato', sans-serif;
+    background-color: aquamarine;
+}
+
+header {
+    
+  background-color: rgb(148, 110, 219);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+}
+
+header nav a {
+  color: rgb(255, 246, 246);
+  text-decoration: none;
+  margin: 15px;
+}
+
+header nav a:hover {
+    color: rgb(0, 0, 0);
+}
