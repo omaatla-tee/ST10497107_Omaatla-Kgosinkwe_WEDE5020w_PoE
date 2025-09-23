@@ -2,23 +2,41 @@
 
 body {
     font-family:'Lato', sans-serif;
-    background-color: aquamarine;
+    background-color: rgb(231, 225, 225);
 }
 
 header {
     
   background-color: rgb(148, 110, 219);
-  color: rgb(0, 0, 0);
-  text-align: center;
+  color: rgb(0, 0, 0)
   padding: 10px;
+}
+
+header img{
+  width: 10%;
+  height: auto;
+  text-align: left;
 }
 
 header nav a {
   color: rgb(255, 246, 246);
   text-decoration: none;
+  text-align: right;
   margin: 15px;
 }
 
 header nav a:hover {
     color: rgb(0, 0, 0);
+}
+
+.homePage h2{
+  font-weight: 'bold';
+  
+}
+
+.homePage div {
+  background-color: rgb(200, 225, 245); 
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px;
 }
