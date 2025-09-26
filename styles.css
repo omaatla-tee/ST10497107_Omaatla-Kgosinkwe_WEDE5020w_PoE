@@ -1,9 +1,7 @@
 /*CSS STYLING FOR ALL THE BODY ELEMENTS OF MY PAGES*/
 
 
-  /* =========================
-   BASE STYLES
-========================= */
+  /* Base Styles for entire website*/
 
 * {
     margin: 0;
@@ -24,9 +22,7 @@ a {
     transition: all 0.3s ease;
 }
 
-/* =========================
-   HEADER STYLING
-========================= */
+/* Styling for header section*/
 
 header {
     background-color: rgb(148, 110, 219);
@@ -58,9 +54,7 @@ header nav a:focus {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-/* =========================
-   MAIN CONTENT STYLING
-========================= */
+/* MAIN CONTENT STYLING */
 
 main {
     padding: 2rem 5%;
@@ -73,7 +67,7 @@ main {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
-    color: rgb(60, 20, 80); /* a slightly darker purple for contrast */
+    color: rgb(60, 20, 80);
 }
 
  h2, h3 {
@@ -109,9 +103,7 @@ section.contact p {
     margin-bottom: 1.5rem;
 }
 
-/* =========================
-   styling explore services section
-========================= */
+/* styling explore services section*/
 
 .feature-card {
     background-color: rgb(255, 255, 255);
@@ -127,43 +119,74 @@ section.contact p {
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
-
-/* =========================
-   styling for testimonials
-========================= */
+/* styling for testimonials */
 
 .testimonials {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin: 30px 0;
+  background-color: rgb(245, 240, 250);
+  border-radius: 50px;
+  padding: 40px;
+  margin: 40px 0;
 }
 
-.testimonial {
-    background-color: rgb(245, 240, 250);
-    border-radius: 50px; /* soft, rounded */
-    padding: 20px;
-    flex: 1 1 250px; /* responsive width */
-    max-width: 350px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+.testimonial-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 per row */
+  gap: 20px;
 }
 
-.testimonial p {
-    font-style: italic;
-    color: rgb(50, 50, 50);
+.testimonial-list blockquote {
+  background-color: rgb(250, 245, 255);
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.testimonial .name {
+.testimonial-list blockquote:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.testimonial-list p {
+  font-style: italic;
+  color: rgb(50, 50, 50);
+  line-height: 1.5;
+}
+
+.testimonial-list .name {
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: right;
+  color: rgb(80, 30, 120);
+}
+
+/* cta button styling*/
+
+  .btn-cta{
+    display: inline-block;
+    padding: 14px 28px;                 
+    font-size: 1.1rem;
     font-weight: bold;
-    margin-top: 10px;
-    text-align: right;
-    color: rgb(80, 30, 120);
+    color: rgb(80, 30, 120);            
+    background-color: #ffffff;          
+    border: 2px solid rgb(148, 110, 219);
+    border-radius: 50px;                
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;   
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-/* =========================
-   FAQ / DETAILS STYLING
-========================= */
+.btn-cta:hover {
+    background-color: rgb(148, 110, 219); 
+    color: #ffffff;                      
+    transform: scale(1.05);               
+    box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+/* FAQ / details styling */
+
 
 .testimonials {
     display: flex;
@@ -172,6 +195,7 @@ section.contact p {
     margin: 40px 0;
     flex-wrap: wrap;
 }
+
 
 .testimonial {
     background-color: rgb(250, 245, 255);
@@ -182,16 +206,19 @@ section.contact p {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+
 .testimonial:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
+
 
 .testimonial p {
     font-style: italic;
     color: rgb(50, 50, 50);
     line-height: 1.5;
 }
+
 
 .testimonial .name {
     font-weight: bold;
@@ -201,40 +228,7 @@ section.contact p {
 }
 
 
-
-/* =========================
-   cta button stulinhg
-========================= */
-
-.btn {
-  display: inline-block;
-  padding: 14px 28px;
-  margin: 10px;
-  background-color: #ffffff;       
-  color: #5a2ca0;                  
-  font-size: 1.1rem;
-  font-weight: bold;
-  border: none;
-  border-radius: 12px;            
-  cursor: pointer;
-  text-decoration: none;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  transition: all 0.3s ease;       
-}
-
-/* Hover effect */
-.btn:hover {
-  background-color: #5a2ca0;       
-  color: #ffffff;                  
-  transform: scale(1.05);          
-  box-shadow: 0 8px 12px rgba(0,0,0,0.2);
-}
-
-
-
-/* =========================
-   FOOTER STYLING
-========================= */
+/* FOOTER STYLING */
 
 footer {
     background-color: rgb(148, 110, 219);
@@ -245,9 +239,8 @@ footer {
     font-size: 0.9rem;
 }
 
-/* ============
-Make all images responsive
-=============== */
+/* Make all images responsive*/
+
 img {
   max-width: 100%;   /* never overflow container */
   height: auto;      /* keep aspect ratio */
@@ -258,9 +251,7 @@ img {
 }
 
 
-/* =========================
-   RESPONSIVE DESIGN
-========================= */
+/* RESPONSIVE DESIGN */
 
 @media (max-width: 1024px) {
     header {
