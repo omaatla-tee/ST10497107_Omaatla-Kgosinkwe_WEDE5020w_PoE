@@ -1,5 +1,8 @@
 
-/*CSS STYLING FOR ALL THE BODY ELEMENTS OF MY PAGES*/
+/*
+CSS STYLING FOR ALL THE BODY ELEMENTS OF MY PAGES
+(Coyier, 2020) & (W3Schools, 2025).
+*/
 
 
   /* Base Styles for entire website*/
@@ -228,13 +231,7 @@ section.contact p {
     color: rgb(80, 30, 120);
 }
 
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> ad6eaf567da4f5bb42ac68e71b94d572272b721b
-/* FOOTER STYLING */
+/* STYLING FOR THE FOOTER SECTION */
 
 footer {
     background-color: rgb(148, 110, 219);
@@ -244,18 +241,6 @@ footer {
     margin-top: 2rem;
     font-size: 0.9rem;
 }
-
-/* Make all images responsive*/
-
-img {
-  max-width: 100%;   /* never overflow container */
-  height: auto;      /* keep aspect ratio */
-  border-radius: 12px; /* smooth rounded corners */
-  display: block;
-  margin: 0 auto;     /* center images */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* subtle shadow for modern look */
-}
-
 
 /* RESPONSIVE DESIGN */
 
@@ -275,6 +260,40 @@ img {
         padding: 2rem 3%;
     }
 }
+
+
+/* side by side hompage workshop images styling & team image styling*/
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* space between images */
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  margin: 2rem 0;
+}
+
+/* Individual images on workshop imgs */
+.peer-imgs {
+  width: 45%;   /* quarter of the screen */
+  max-width: 300px; /* limit so they don’t get too big */
+  height: auto; /* keep aspect ratio */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Style the team image inside the section */
+.ourteam-img .team-img {
+    width: 45%;            /* default width on desktop */
+    max-width: 400px;      /* never exceed 400px */
+    height: auto;          /* maintain aspect ratio */
+    border-radius: 12px;   /* rounded corners */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15); /* subtle shadow */
+    display: block;
+    margin: 2rem auto;    
+
+
+/*RESPONSIVENESS FOR WEBSITE CONTENT*/
+
 
 @media (max-width: 768px) {
     header nav {
@@ -309,6 +328,37 @@ img {
     }
 }
 
+/*RESPONSIVENESS FOR IMAGES*/
+
+@media (max-width: 768px) {
+  .peer-imgs {
+    width: 45%;  /* 2 side by side on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .peer-imgs {
+    width: 90%;  /* stack full-width on small phones */
+  }
+}
+
+/* our team image responsiveness*/
 
 
+@media (max-width: 1024px) {
+    .ourteam-img .team-img {
+        width: 60%;
+    }
+}
 
+@media (max-width: 768px) {
+    .ourteam-img .team-img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .ourteam-img .team-img {
+        width: 90%;
+    }
+}
