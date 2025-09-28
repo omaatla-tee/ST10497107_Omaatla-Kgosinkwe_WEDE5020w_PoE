@@ -299,13 +299,13 @@ footer {
 .image-gallery {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
   flex-wrap: wrap; /* let images wrap on small screens */
 }
 
 /* Individual images */
 .peer-imgs {
-  width: 25%;        /* quarter of screen */
+  width: 50%;        /* quarter of screen */
   max-width: 300px;  /* don’t let them get too big */
   height: auto;      /* keep aspect ratio */
   border-radius: 12px;
