@@ -53,7 +53,7 @@ BloomMind currently does not have a running website. This means the organization
 
 **Technical Requirements:**  
 - **Domain Name:** www.bloommind.org 
-- **Web Hosting:** GitHub Pages, Netlify, Hostinger, GoDaddy  
+- **Web Hosting:** GitHub Pages
 - **Development Tools:**  
   - HTML: Structure pages  
   - CSS: Styling and layout  
@@ -73,15 +73,20 @@ BloomMind currently does not have a running website. This means the organization
 
 ---
 
-## References
-- Faraz, 2025. *50 HTML, CSS, and JavaScript Projects with Source Code for Beginners.* [Online] Available at: <https://www.codewithfaraz.com/article/103/50-html-css-and-javascript-projects-with-source-code-for-beginners> [Accessed 29 Jul. 2025].  
-- HackerNoon, 2025. *A Beginner’s Guide to HTML, CSS, and JavaScript.* [Online] Available at: <https://hackernoon.com/a-beginners-guide-to-html-css-and-javascript> [Accessed 29 Jul. 2025].  
-- MyCleverAI, 2024. *Mental Health Website Design Services.* [Online] Available at: <https://mycleverai.com/mental-health-website-design> [Accessed 29 Jul. 2025].  
-- Prabinb50, 2024. *MindfullConnect: Mental Health Support Website.* [Online] GitHub. Available at: <https://github.com/prabinb50/MindfullConnect_Mental_Health_Support_Website_Using_HTML_CSS_JS> [Accessed 29 Jul. 2025].  
-- South African Federation for Mental Health (SAFMH), 2023. *Home.* [Online] Available at: <https://www.safmh.org/> [Accessed 29 Jul. 2025].  
-- W3Schools, 2025. *How to make a website.* [Online] Available at: <https://www.w3schools.com/howto/howto_make_a_website.asp> [Accessed 29 Jul. 2025].  
-- Coursera, 2025. *Modern Frontend Web Development: HTML & CSS Foundations.* [Online] Available at: <https://www.coursera.org/learn/modern-frontend-web-development-html--css-foundations> [Accessed 29 Jul. 2025].  
-- GeeksforGeeks, 2025. *Learn Web Development Basics with HTML CSS and JavaScript.* [Online] Available at: <https://www.geeksforgeeks.org/javascript/learn-web-development-basics-with-html-css-and->
-- Coyier, C. (n.d.). CSS Almanac. CSS-Tricks. Available at: https://css-tricks.com/almanac/ [Accessed 26 Sep. 2025].
+## EDITS AND CORRECTIONS:
 
+
+
+---
+
+## References
+- Coyier, C. (n.d.). *CSS Almanac.* CSS-Tricks. Available at: [https://css-tricks.com/almanac/](https://css-tricks.com/almanac/) [Accessed 26 Sep. 2025].
+- Coursera, 2025. *Modern Frontend Web Development: HTML & CSS Foundations.* [Online] Available at: [https://www.coursera.org/learn/modern-frontend-web-development-html--css-foundations](https://www.coursera.org/learn/modern-frontend-web-development-html--css-foundations) [Accessed 29 Jul. 2025].
+- Faraz, 2025. *50 HTML, CSS, and JavaScript Projects with Source Code for Beginners.* [Online] Available at: [https://www.codewithfaraz.com/article/103/50-html-css-and-javascript-projects-with-source-code-for-beginners](https://www.codewithfaraz.com/article/103/50-html-css-and-javascript-projects-with-source-code-for-beginners) [Accessed 29 Jul. 2025].
+- GeeksforGeeks, 2025. *Learn Web Development Basics with HTML CSS and JavaScript.* [Online] Available at: [https://www.geeksforgeeks.org/javascript/learn-web-development-basics-with-html-css-and-](https://www.geeksforgeeks.org/javascript/learn-web-development-basics-with-html-css-and-)
+- HackerNoon, 2025. *A Beginner’s Guide to HTML, CSS, and JavaScript.* [Online] Available at: [https://hackernoon.com/a-beginners-guide-to-html-css-and-javascript](https://hackernoon.com/a-beginners-guide-to-html-css-and-javascript) [Accessed 29 Jul. 2025].
+- MyCleverAI, 2024. *Mental Health Website Design Services.* [Online] Available at: [https://mycleverai.com/mental-health-website-design](https://mycleverai.com/mental-health-website-design) [Accessed 29 Jul. 2025].
+- Prabinb50, 2024. *MindfullConnect: Mental Health Support Website.* [Online] GitHub. Available at: [https://github.com/prabinb50/MindfullConnect_Mental_Health_Support_Website_Using_HTML_CSS_JS](https://github.com/prabinb50/MindfullConnect_Mental_Health_Support_Website_Using_HTML_CSS_JS) [Accessed 29 Jul. 2025].
+- South African Federation for Mental Health (SAFMH), 2023. *Home.* [Online] Available at: [https://www.safmh.org/](https://www.safmh.org/) [Accessed 29 Jul. 2025].
+- W3Schools, 2025. *How to make a website.* [Online] Available at: [https://www.w3schools.com/howto/howto_make_a_website.asp](https://www.w3schools.com/howto/howto_make_a_website.asp) [Accessed 29 Jul. 2025].
 
