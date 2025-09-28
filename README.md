@@ -52,7 +52,7 @@ BloomMind currently does not have a running website. This means the organization
 - **Onboarding:** Prompts for first-time users to explore features  
 
 **Technical Requirements:**  
-- **Domain Name:** www.bloommind.org or www.bloommind.co.za  
+- **Domain Name:** www.bloommind.org 
 - **Web Hosting:** GitHub Pages, Netlify, Hostinger, GoDaddy  
 - **Development Tools:**  
   - HTML: Structure pages  
@@ -83,4 +83,5 @@ BloomMind currently does not have a running website. This means the organization
 - Coursera, 2025. *Modern Frontend Web Development: HTML & CSS Foundations.* [Online] Available at: <https://www.coursera.org/learn/modern-frontend-web-development-html--css-foundations> [Accessed 29 Jul. 2025].  
 - GeeksforGeeks, 2025. *Learn Web Development Basics with HTML CSS and JavaScript.* [Online] Available at: <https://www.geeksforgeeks.org/javascript/learn-web-development-basics-with-html-css-and->
 - Coyier, C. (n.d.). CSS Almanac. CSS-Tricks. Available at: https://css-tricks.com/almanac/ [Accessed 26 Sep. 2025].
+
 
