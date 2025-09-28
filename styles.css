@@ -330,7 +330,7 @@ footer {
 
 /* Style the team image inside the section */
 
-.ourteam-img .peer-imgs {
+.ourteam-img .team-img {
     width: 60%;            /* default width on desktop */
     max-width: 400px;      /* never exceed 400px */
     height: auto;          /* maintain aspect ratio */
