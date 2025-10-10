@@ -73,11 +73,82 @@ BloomMind currently does not have a running website. This means the organization
 
 ---
 
-## EDITS AND CORRECTIONS:
+# Sitemap for BloomMind Website
+
+- **Home Page (index.html)**
+  - Welcome message and introduction to BloomMind
+  - Navigation menu linking to all other pages
+  - Call-to-action button
+  - Embedded promotional video
+  - Quick overview of workshops and services
+  - Registration button / call-to-action link
+
+- **About Us Page (about.html)**
+  - Introduction to BloomMind and its purpose
+  - "Our Team" section with group image
+  - Mission, vision, and values statement
+  - Short history of the organization
+
+- **Services Page (services.html)**
+  - List of services provided by BloomMind
+  - Short descriptions with icons or images
+  - Links to contact or inquiry form
+
+- **Gallery Page (gallery.html)** *(if included)*
+  - Collection of event and workshop images
+  - Responsive grid layout for easy viewing
+
+- **Contact / Inquiry Page (contact.html)**
+  - Inquiry form with fields (name, email, message)
+  - Submit button styled as CTA
+  - Contact details (phone, email, location)
+  - Social media links
+
+- **Footer (all pages)**
+  - Navigation links repeated
+  - Copyright notice
+  - External/social links
+
+  ---
 
 
+## EDITS AND CORRECTIONS/ CHANGE-LOG:
+## Updates from Part 1  to Part 2 
+
+1. **Added external CSS stylesheet (`styles.css`)**  
+   - Linked all HTML pages to one stylesheet for consistency.  
+   - Established a base style (fonts, background color, spacing). 
+
+2. **Navigation menu improvements**  
+   - Styled navigation bar with background color and hover effects.  
+   - Made the navigation responsive for tablet/mobile with flexbox and media queries.  
+
+3. **Added interactive buttons**  
+   - Inserted clear **Call-to-Action (CTA)** buttons (e.g., “Get Support” and “Read FAQs”).  
+   - Styled buttons with hover animations for a modern look.  
+
+4. **Introduced video section**  
+   - Embedded Bloom Mind’s YouTube link as a featured section.  
+   - Ensured video container is responsive for different screen sizes.  
+
+5. **Testimonials redesign**  
+   - Updated testimonial section with rounded-corner cards and shadows.  
+   - Arranged testimonials in a responsive two-column grid for desktop.  
+
+6. **Added images to strengthen credibility**  
+   - Inserted workshop and team photos into `_images/` folder.  
+   - Styled images to be responsive (max-width, auto height, border-radius).  
+
+7. **Responsive design across devices**  
+   - Used `@media` queries at `1024px`, `768px`, and `480px` breakpoints.  
+   - Adjusted navigation, images, and typography for mobile/tablet.  
+
+8. **Visual styling improvements**  
+    - Added color scheme (purple + light backgrounds for contrast).  
+    - Used box shadows, rounded corners, and consistent spacing for a modern design.  
 
 ---
+
 
 ## References
 - Coyier, C. (n.d.). *CSS Almanac.* CSS-Tricks. Available at: [https://css-tricks.com/almanac/](https://css-tricks.com/almanac/) [Accessed 26 Sep. 2025].
