@@ -72,92 +72,116 @@ BloomMind currently does not have a running website. This means the organization
 - **Week 6 – Final Touches & Documentation:** Final styling, content updates, supporting documentation  
 
 ---
+## Sitemap for BloomMind Website
+**Home Page** (index.html)
 
-# Sitemap for BloomMind Website
+**Welcome message and introduction to BloomMind**
+**Call-to-action button**
+**Embedded promotional video**
+**Quick overview of workshops and services**
+**Registration button / call-to-action link**
+**About Us Page (about.html)**
 
-- **Home Page (index.html)**
-  - Welcome message and introduction to BloomMind
-  - Navigation menu linking to all other pages
-  - Call-to-action button
-  - Embedded promotional video
-  - Quick overview of workshops and services
-  - Registration button / call-to-action link
+**Introduction to BloomMind and its purpose**
+**"Our Team" section with group image**
+**Mission, vision, and values statement**
+**Short history of the organization**
+**Services Page (services.html)**
 
-- **About Us Page (about.html)**
-  - Introduction to BloomMind and its purpose
-  - "Our Team" section with group image
-  - Mission, vision, and values statement
-  - Short history of the organization
+**List of services provided by BloomMind**
+**Short descriptions with icons or images**
+**Links to contact or inquiry form**
+**Gallery Page (gallery.html) (if included)**
 
-- **Services Page (services.html)**
-  - List of services provided by BloomMind
-  - Short descriptions with icons or images
-  - Links to contact or inquiry form
+**Collection of event and workshop images**
+**Responsive grid layout for easy viewing**
+**Contact / Inquiry Page (contact.html)**
 
-- **Gallery Page (gallery.html)** *(if included)*
-  - Collection of event and workshop images
-  - Responsive grid layout for easy viewing
+**Inquiry form with fields (name, email, message)**
+**Submit button styled as CTA**
+**Contact details (phone, email, location)**
+**Social media links**
+**Footer (all pages)**
 
-- **Contact / Inquiry Page (contact.html)**
-  - Inquiry form with fields (name, email, message)
-  - Submit button styled as CTA
-  - Contact details (phone, email, location)
-  - Social media links
-
-- **Footer (all pages)**
-  - Navigation links repeated
-  - Copyright notice
-  - External/social links
-
-  ---
-
-
-## EDITS AND CORRECTIONS/ CHANGE-LOG:
-## Updates from Part 1  to Part 2 
-
-1. **Added external CSS stylesheet (`styles.css`)**  
-   - Linked all HTML pages to one stylesheet for consistency.  
-   - Established a base style (fonts, background color, spacing). 
-
-2. **Navigation menu improvements**  
-   - Styled navigation bar with background color and hover effects.  
-   - Made the navigation responsive for tablet/mobile with flexbox and media queries.  
-
-3. **Added interactive buttons**  
-   - Inserted clear **Call-to-Action (CTA)** buttons (e.g., “Get Support” and “Read FAQs”).  
-   - Styled buttons with hover animations for a modern look.  
-
-4. **Introduced video section**  
-   - Embedded Bloom Mind’s YouTube link as a featured section.  
-   - Ensured video container is responsive for different screen sizes.  
-
-5. **Testimonials redesign**  
-   - Updated testimonial section with rounded-corner cards and shadows.  
-   - Arranged testimonials in a responsive two-column grid for desktop.  
-
-6. **Added images to strengthen credibility**  
-   - Inserted workshop and team photos into `_images/` folder.  
-   - Styled images to be responsive (max-width, auto height, border-radius).  
-
-7. **Responsive design across devices**  
-   - Used `@media` queries at `1024px`, `768px`, and `480px` breakpoints.  
-   - Adjusted navigation, images, and typography for mobile/tablet.  
-
-8. **Visual styling improvements**  
-    - Added color scheme (purple + light backgrounds for contrast).  
-    - Used box shadows, rounded corners, and consistent spacing for a modern design.  
+**Navigation links repeated**
+**Copyright notice**
+**External/social links**
 
 ---
 
+## EDITS AND CORRECTIONS/ CHANGE-LOG:
+## Updates from Part 1 to Part 2
+**Added external CSS stylesheet (styles.css)**
 
-## References
-- Coyier, C. (n.d.). *CSS Almanac.* CSS-Tricks. Available at: [https://css-tricks.com/almanac/](https://css-tricks.com/almanac/) [Accessed 26 Sep. 2025].
-- Coursera, 2025. *Modern Frontend Web Development: HTML & CSS Foundations.* [Online] Available at: [https://www.coursera.org/learn/modern-frontend-web-development-html--css-foundations](https://www.coursera.org/learn/modern-frontend-web-development-html--css-foundations) [Accessed 29 Jul. 2025].
-- Faraz, 2025. *50 HTML, CSS, and JavaScript Projects with Source Code for Beginners.* [Online] Available at: [https://www.codewithfaraz.com/article/103/50-html-css-and-javascript-projects-with-source-code-for-beginners](https://www.codewithfaraz.com/article/103/50-html-css-and-javascript-projects-with-source-code-for-beginners) [Accessed 29 Jul. 2025].
-- GeeksforGeeks, 2025. *Learn Web Development Basics with HTML CSS and JavaScript.* [Online] Available at: [https://www.geeksforgeeks.org/javascript/learn-web-development-basics-with-html-css-and-](https://www.geeksforgeeks.org/javascript/learn-web-development-basics-with-html-css-and-)
-- HackerNoon, 2025. *A Beginner’s Guide to HTML, CSS, and JavaScript.* [Online] Available at: [https://hackernoon.com/a-beginners-guide-to-html-css-and-javascript](https://hackernoon.com/a-beginners-guide-to-html-css-and-javascript) [Accessed 29 Jul. 2025].
-- MyCleverAI, 2024. *Mental Health Website Design Services.* [Online] Available at: [https://mycleverai.com/mental-health-website-design](https://mycleverai.com/mental-health-website-design) [Accessed 29 Jul. 2025].
-- Prabinb50, 2024. *MindfullConnect: Mental Health Support Website.* [Online] GitHub. Available at: [https://github.com/prabinb50/MindfullConnect_Mental_Health_Support_Website_Using_HTML_CSS_JS](https://github.com/prabinb50/MindfullConnect_Mental_Health_Support_Website_Using_HTML_CSS_JS) [Accessed 29 Jul. 2025].
-- South African Federation for Mental Health (SAFMH), 2023. *Home.* [Online] Available at: [https://www.safmh.org/](https://www.safmh.org/) [Accessed 29 Jul. 2025].
-- W3Schools, 2025. *How to make a website.* [Online] Available at: [https://www.w3schools.com/howto/howto_make_a_website.asp](https://www.w3schools.com/howto/howto_make_a_website.asp) [Accessed 29 Jul. 2025].
+**Linked all HTML pages to one stylesheet for consistency.**
+**Established a base style (fonts, background color, spacing).**
+**Navigation menu improvements**
 
+**Styled navigation bar with background color and hover effects.**
+**Made the navigation responsive for tablet/mobile with flexbox and media queries.****
+**Added interactive buttons**
+
+**Inserted clear Call-to-Action (CTA) buttons (e.g., “Get Support” and “Read FAQs”).**
+**Styled buttons with hover animations for a modern look.**
+**Introduced video section**
+
+**Embedded Bloom Mind’s YouTube link as a featured section.**
+**Ensured video container is responsive for different screen sizes.**
+**Testimonials redesign**
+
+**Updated testimonial section with rounded-corner cards and shadows.**
+**Arranged testimonials in a responsive two-column grid for desktop.**
+**Added images to strengthen credibility**
+
+**Inserted workshop and team photos into _images/ folder.**
+**Styled images to be responsive (max-width, auto height, border-radius).**
+**Responsive design across devices**
+
+**Used @media queries at 1024px, 768px, and 480px breakpoints.**
+**Adjusted navigation, images, and typography for mobile/tablet.**
+**Visual styling improvements**
+
+**Added color scheme (purple + light backgrounds for contrast).**
+**Used box shadows, rounded corners, and consistent spacing for a modern design.**
+
+---
+
+## RESPONSIVENESS SCREENSHOTS
+
+**HOME-PAGE DESKTOP VERSION:** 
+_images/Screenshot(5).png
+_images/Screenshot 2025-10-10 211020.png
+
+
+
+
+---
+
+## 📚 References
+
+- **Coyier, C.** (n.d.). *CSS Almanac.* CSS-Tricks.  
+  Available at: [https://css-tricks.com/almanac/](https://css-tricks.com/almanac/) [Accessed 26 Sep 2025].
+
+- **Coursera.** (2025). *Modern Frontend Web Development: HTML & CSS Foundations.*  
+  Available at: [https://www.coursera.org/learn/modern-frontend-web-development-html--css-foundations](https://www.coursera.org/learn/modern-frontend-web-development-html--css-foundations) [Accessed 29 Jul 2025].
+
+- **Faraz.** (2025). *50 HTML, CSS, and JavaScript Projects with Source Code for Beginners.*  
+  Available at: [https://www.codewithfaraz.com/article/103/50-html-css-and-javascript-projects-with-source-code-for-beginners](https://www.codewithfaraz.com/article/103/50-html-css-and-javascript-projects-with-source-code-for-beginners) [Accessed 29 Jul 2025].
+
+- **GeeksforGeeks.** (2025). *Learn Web Development Basics with HTML, CSS and JavaScript.*  
+  Available at: [https://www.geeksforgeeks.org/javascript/learn-web-development-basics-with-html-css-and-](https://www.geeksforgeeks.org/javascript/learn-web-development-basics-with-html-css-and-) [Accessed 29 Jul 2025].
+
+- **HackerNoon.** (2025). *A Beginner’s Guide to HTML, CSS, and JavaScript.*  
+  Available at: [https://hackernoon.com/a-beginners-guide-to-html-css-and-javascript](https://hackernoon.com/a-beginners-guide-to-html-css-and-javascript) [Accessed 29 Jul 2025].
+
+- **MyCleverAI.** (2024). *Mental Health Website Design Services.*  
+  Available at: [https://mycleverai.com/mental-health-website-design](https://mycleverai.com/mental-health-website-design) [Accessed 29 Jul 2025].
+
+- **Prabinb50.** (2024). *MindfullConnect: Mental Health Support Website.* GitHub.  
+  Available at: [https://github.com/prabinb50/MindfullConnect_Mental_Health_Support_Website_Using_HTML_CSS_JS](https://github.com/prabinb50/MindfullConnect_Mental_Health_Support_Website_Using_HTML_CSS_JS) [Accessed 29 Jul 2025].
+
+- **South African Federation for Mental Health (SAFMH).** (2023). *Home.*  
+  Available at: [https://www.safmh.org/](https://www.safmh.org/) [Accessed 29 Jul 2025].
+
+- **W3Schools.** (2025). *How to Make a Website.*  
+  Available at: [https://www.w3schools.com/howto/howto_make_a_website.asp](https://www.w3schools.com/howto/howto_make_a_website.asp) [Accessed 29 Jul 2025].
