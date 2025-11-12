@@ -10,8 +10,9 @@
      <link rel="stylesheet" href="styles.css">
 </head>
 
+
 <body>
-     <!--Header Section: Contains navigation menu and titles-->
+    <!--Header Section: Contains navigation menu and titles-->
     <header>
 
         <!--Logo of our organization-->
@@ -38,78 +39,60 @@
         understood, supported, and empowered. No matter what you’re facing, Bloo Mind is here to walk 
         alongside you and make mental wellness part of everyday student life.</p>
 
-        <section class="workshop-images">
+
+    <!-- Tabs for Services -->
+    <div class="tabs">
+        <!-- Tab buttons -->
+        <div class="tab-buttons">
+            <button class="tab-btn active" data-tab="peer">Peer Support</button>
+            <button class="tab-btn" data-tab="workshops">Workshops & Webinars</button>
+            <button class="tab-btn" data-tab="spaces">Interaction Spaces</button>
+            <button class="tab-btn" data-tab="library">Resource Library</button>
+        </div>
+
+        <!-- Tab content -->
+        <div class="tab-content active" id="peer">
+            <h3>One On One Peer Support</h3>
+            <div>We offer private, confidential sessions with trained peer supporters who are also students. This means they understand the academic pressures, social challenges, and personal struggles you might be facing.</div>
+            <h4>Benefits:</h4>
+            <p>You get a safe space to speak openly without fear of judgment, and personalised support to help you cope better with stress, anxiety, or loneliness. Peer supporters can also connect you with additional resources if needed.</p>
+            <p>Sessions can be booked online or in person, and you decide how often you’d like to meet.</p>
+        </div>
+
+        <div class="tab-content" id="workshops">
+            <h3>Workshops & Webinars</h3>
+            <div>We run interactive sessions, both in person (including on our campus) and online, covering topics like emotional intelligence, healthy coping strategies, time management, and mental resilience. Workshops are activity-based, while webinars allow for remote participation and replays.</div>
+            <h4>Benefits:</h4>
+            <p>You gain practical skills you can apply immediately in your studies and personal life, while also networking with students who share similar interests or challenges.</p>
+            <p>Guest speakers, mental health professionals, and alumni are often invited to share their expertise and experiences.</p>
+        </div>
+
+        <div class="tab-content" id="spaces">
+            <h3>Student Interaction Spaces</h3>
+            <div>Opportunities to connect with other students in safe, inclusive environments, both in person and online. This could be through group activities at workshops, informal discussion circles, or moderated online chatrooms.</div>
+            <h4>Benefits:</h4>
+            <p>Building friendships, sharing experiences, and realising you’re not alone in your struggles. This sense of belonging can significantly improve your emotional wellbeing and confidence.</p>
+            <p>All spaces are guided by our code of conduct to ensure respect, safety, and privacy for all members.</p>
+        </div>
+
+        <div class="tab-content" id="library">
+            <h3>Wellness Resource Library</h3>
+            <div>A growing online hub of student focused mental health materials; including articles, practical guides, short videos, and downloadable tools. Topics include stress management, exam preparation, building self-confidence, and mindfulness practices.</div>
+            <h4>Benefits:</h4>
+            <p>You can access support anytime, even outside of normal hours, and learn at your own pace. The resources are written in clear, student-friendly language, so you don’t need any prior knowledge to benefit from them.</p>
+            <p>We regularly update the library based on student feedback and emerging mental health trends.</p>
+        </div>
+    </div>
+
+     <section class="workshop-images">
         <!--iNSERTION of pictures to show website's credibility and reliability(pexels,2025)-->
         <img class="peer-imgs" src="_images/BloomMindWorkshop3.png.jpg" alt="A picture of our students/ peers at a workshop"> 
         <p>
             Pictures of students at our Interactive Bloom Mind Workshop
         </p>
-        </section>
+    </section>
 
-
-        <!-- List of Services and offers to expect-->
-        <ol>
-            <li>
-                <h3>One On One Peer Support</h3>
-                <div>We offer private, confidential sessions with trained peer supporters who are also 
-                    students. This means they understand the academic pressures, social challenges, and 
-                    personal struggles you might be facing.</div>
-
-                <h4>Benefits:</h4>
-                <p>You get a safe space to speak openly without fear of judgment, and personalised support
-                    to help you cope better with stress, anxiety, or loneliness. Peer supporters can also
-                    connect you with additional resources if needed.
-                </p>  connect you with additional resources if needed.
-                <p>Sessions can be booked online or in person, and you decide how often you’d like to meet.</p>
-            </li>
-            <li>
-                <h3>Workshops & Webinars</h3>
-                <div>We run interactive sessions, both in person (including on our campus)and online,
-                    covering topics like emotional intelligence, healthy coping strategies, time management, 
-                    and mental resilience. Workshops are activity-based, while webinars allow for remote 
-                    participation and replays.</div>
-
-                <h4>Benefits:</h4>
-                <p>You gain practical skills you can apply immediately in your studies and personal life, 
-                    while also networking with students who share similar interests or challenges.</p>
-                    <p>Guest speakers, mental health professionals, and alumni are often invited to share 
-                        their expertise and experiences.</p>
-            </li>
-            <li>
-                <h3>Student Interaction Spaces</h3>
-                <div>Opportunities to connect with other students in safe, inclusive environments, 
-                    both in person and online. This could be through group activities at workshops, 
-                    informal discussion circles, or moderated online chatrooms.</div>
-
-                <h4>Benefits:</h4>
-                <p>Building friendships, sharing experiences, and realising you’re not alone in your struggles.
-                    This sense of belonging can significantly improve your emotional wellbeing and confidence.</p>
-                <p>All spaces are guided by our code of conduct to ensure respect, safety, and privacy for 
-                    all members.</p>
-            
-            </li>
-
-            <li>
-                <h3>Wellness Resource Library</h3>
-                <div>A growing online hub of student focused mental health materials; including articles, 
-                    practical guides, short videos, and downloadable tools. Topics include stress management, 
-                    exam preparation, building self-confidence, and mindfulness practices.</div>
-
-                <h4>Benefits:</h4>
-                <p>You can access support anytime, even outside of normal hours, and learn at your own pace. 
-                    The resources are written in clear, student-friendly language, so you don’t need any 
-                    prior knowledge to benefit from them.</p>
-                <p>We regularly update the library based on student feedback and emerging mental health trends.
-                </p>
-
-            </li>
-
-    
-        </ol>
-        
-
-        </body>
-
+    <script src="script.js"></script>
 </body>
 
 <footer>

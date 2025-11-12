@@ -429,3 +429,176 @@ img {
 
 
 
+
+
+
+/*part 3 STARTS HERE*
+/* FAQ Accordion Styles for enquiries page*/
+.faq-section {
+  max-width: 800px;
+  margin: 3rem auto;
+}
+
+.accordion-item {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.accordion-btn {
+  width: 100%;
+  background-color: rgb(148, 110, 219);
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-btn:hover {
+  background-color: rgb(120, 80, 190);
+}
+
+.accordion-content {
+  display: none;
+  background-color: white;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+
+/* Tab buttons for our services page */
+.tab-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  border: 2px solid rgb(148, 110, 219);
+  background-color: #fff;
+  color: rgb(80, 30, 120);
+  cursor: pointer;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.tab-btn:hover {
+  background-color: rgb(148, 110, 219);
+  color: #fff;
+}
+
+.tab-btn.active {
+  background-color: rgb(148, 110, 219);
+  color: #fff;
+}
+
+/* Tab content */
+.tab-content {
+  display: none; /* hide by default */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.tab-content.active {
+  display: block; /* show only active */
+}
+
+
+
+
+
+
+
+
+
+
+/* Tab buttons */
+.tab-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  border: 2px solid rgb(148, 110, 219);
+  background-color: #fff;
+  color: rgb(80, 30, 120);
+  cursor: pointer;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.tab-btn:hover {
+  background-color: rgb(148, 110, 219);
+  color: #fff;
+}
+
+.tab-btn.active {
+  background-color: rgb(148, 110, 219);
+  color: #fff;
+}
+
+/* Tab content */
+.tab-content {
+  display: none; /* hide by default */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.tab-content.active {
+  display: block; /* show only active */
+}
+
+/*Modal to warn students to be weary*/
+/* Modal styling */
+.modal {
+  display: none; /* hidden by default */
+  position: fixed; 
+  z-index: 1000; /* on top of everything */
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent overlay */
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 0 20px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  animation: fadeIn 0.5s ease;
+}
+
+.close-btn {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(-20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
