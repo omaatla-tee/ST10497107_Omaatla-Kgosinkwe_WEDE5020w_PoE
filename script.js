@@ -62,28 +62,3 @@ window.onclick = function(event) {
   }
 };
 
-
-// Initialize the map for loctaion services
-document.addEventListener('DOMContentLoaded', function() {
-    // Initialize the map in the "map" div
-    // setView([latitude, longitude], zoomLevel)
-    const map = L.map('map').setView([-25.7479, 28.2293], 13); // Example: Pretoria coordinates
-
-    // Add OpenStreetMap tiles to the map
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19, // Maximum zoom level
-        attribution: '© OpenStreetMap' // Credit for map data
-    }).addTo(map);
-
-    // Place a marker on the map to show Bloom Mind's office
-    const marker = L.marker([-25.7479, 28.2293]).addTo(map);
-
-    // Add a popup to the marker explaining what it is
-    marker.bindPopup("<b>Bloom Mind Office</b><br>University Campus, Pretoria.").openPopup();
-});
-
-
-
-
-
-

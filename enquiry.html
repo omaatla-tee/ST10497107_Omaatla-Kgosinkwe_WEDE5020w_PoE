@@ -1,22 +1,32 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mind Bloom | ENQUIRIES</title>
+    
+    <title>Bloom Mind : Student Mental Health Support | ENQUIRIES</title>
+
+     <meta name="description" content="Bloom Mind provides accessible mental health support for students across Africa. Get peer 
+     support, stress management tools, workshops, and resources designed to help students build resilience and
+      navigate school pressures with confidence.">
+
     <link rel="stylesheet" href="styles.css">
 
 </head>
+
 
 <body>
   <!--Header Section-->
   <header>
 
+
      <!--Logo of our organization-->
-        <img 
+        <img
         src="_images/BMLogo.png" alt="Bloom Mind Org Logo"
-        /> 
+        />
+
 
     <nav>
       <a href="index.html">HOME</a>
@@ -27,13 +37,39 @@
     </nav>
   </header>
 
-<main class="enquiryPage">
 
-  <section>
-    <h1>FAQ — Bloom Mind</h1>
-    <p>Below are answers to common questions about Bloom Mind’s services, access, privacy, and how you can get involved. Click on each question to see the answer. If you don’t find what you’re looking for here, visit our Contact page to reach out.</p>
+ <main class="enquiryPage">
 
+
+    <!-- FAQ INTRO + SEARCH SECTION -->
+    <section class="faqs">
+      <h1>FAQ — Bloom Mind</h1>
+      <p>
+        Below are answers to common questions about Bloom Mind’s services, access, privacy, and how you can get involved.
+        Use the search box below to quickly find your answer. If you don’t find what you’re looking for,
+        you can always <a href="contact.html">contact us directly</a>.
+      </p>
+
+
+      <!-- Search bar -->
+      <div class="faq-search">
+        <h2>Find Your Answer</h2>
+        <input
+          type="text"
+          id="faqSearch"
+          placeholder="Search a question..."
+          onkeyup="searchFAQ()"
+        />
+        <p id="noResults" style="display: none;">
+          ❓ Not finding your answer? <a href="contact.html">Contact us here</a>.
+        </p>
+      </div>
+    </section>
+
+
+    <section class="faqs">
     <div class="faq-section">
+
 
       <div class="accordion-item">
         <button class="accordion-btn">1. What is Bloom Mind?</button>
@@ -42,12 +78,14 @@
         </div>
       </div>
 
+
       <div class="accordion-item">
         <button class="accordion-btn">2. Who is Bloom Mind for?</button>
         <div class="accordion-content">
           <p>Bloom Mind is open to all students—regardless of background, field of study, or age—who want support, resources, or community focused on mental wellbeing.</p>
         </div>
       </div>
+
 
       <div class="accordion-item">
         <button class="accordion-btn">3. Where is Bloom Mind based?</button>
@@ -56,12 +94,14 @@
         </div>
       </div>
 
+
       <div class="accordion-item">
         <button class="accordion-btn">4. Is Bloom Mind a registered organisation?</button>
         <div class="accordion-content">
           <p>We operate as a student-led initiative supported by volunteers and advocates. We are in the process of any necessary formal registration (where applicable) to expand our reach.</p>
         </div>
       </div>
+
 
       <div class="accordion-item">
         <button class="accordion-btn">5. Do I need to be a student to join?</button>
@@ -70,12 +110,14 @@
         </div>
       </div>
 
+
       <div class="accordion-item">
         <button class="accordion-btn">6. What services does Bloom Mind offer?</button>
         <div class="accordion-content">
           <p>We offer one-on-one peer support, group support circles, workshops & webinars, a wellness resource library, student interaction spaces, crisis referrals, and more.</p>
         </div>
       </div>
+
 
       <div class="accordion-item">
         <button class="accordion-btn">7. How do peer support sessions work?</button>
@@ -84,12 +126,14 @@
         </div>
       </div>
 
+
       <div class="accordion-item">
         <button class="accordion-btn">8. What topics can I discuss in peer support?</button>
         <div class="accordion-content">
           <p>You can discuss anything affecting your wellbeing: stress, anxiety, study pressure, relationships, loneliness, identity concerns, or personal challenges.</p>
         </div>
       </div>
+
 
       <div class="accordion-item">
         <button class="accordion-btn">9. Are your workshops free?</button>
@@ -98,12 +142,14 @@
         </div>
       </div>
 
+
       <div class="accordion-item">
         <button class="accordion-btn">10. Do you offer crisis counselling?</button>
         <div class="accordion-content">
           <p>We are not a crisis counselling service. However, we provide crisis support information and can quickly refer or connect you with professional helplines and emergency contacts.</p>
         </div>
       </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">11. How do I book a session?</button>
@@ -112,12 +158,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">12. Do I need an appointment for workshops?</button>
     <div class="accordion-content">
       <p>We encourage registration to reserve a place and plan materials, though some workshops may accept limited walk-ins depending on space.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">13. Are your services available online?</button>
@@ -126,12 +174,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">14. Can students from other campuses join?</button>
     <div class="accordion-content">
       <p>Yes—our online services and many webinars are open to students from other campuses and institutions.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">15. What are your operating hours?</button>
@@ -140,12 +190,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">16. Is everything I say in sessions confidential?</button>
     <div class="accordion-content">
       <p>Yes—sessions are confidential except in cases where there is risk of harm to yourself or others, or where disclosure is required by law.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">17. Do you share my information with anyone?</button>
@@ -154,12 +206,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">18. Can I be anonymous in group sessions?</button>
     <div class="accordion-content">
       <p>Yes—you may choose a nickname, keep your camera off, or participate in limited ways in online group spaces to protect your privacy.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">19. Are online spaces moderated?</button>
@@ -168,12 +222,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">20. What if I see or experience inappropriate behaviour?</button>
     <div class="accordion-content">
       <p>Report it immediately to moderators or staff via the report features, email, or in-person so we can investigate and take action.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">21. How will Bloom Mind help me?</button>
@@ -182,12 +238,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">22. Will I make friends here?</button>
     <div class="accordion-content">
       <p>Many students form friendships through our group activities, workshops, and online communities—connections that often last beyond individual events.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">23. Can Bloom Mind help me with exam stress?</button>
@@ -196,12 +254,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">24. Do you cover topics like depression or anxiety?</button>
     <div class="accordion-content">
       <p>Yes—we provide peer support and educational resources addressing depression, anxiety, and other common mental health concerns. For clinical treatment, we refer to professionals.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">25. Do you help with academic advice?</button>
@@ -210,12 +270,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">26. How often do you run workshops?</button>
     <div class="accordion-content">
       <p>Workshops are typically held twice a month, with additional events during awareness weeks and exam seasons. See our events calendar for specifics.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">27. What kind of webinars do you have?</button>
@@ -224,12 +286,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">28. Can I suggest a workshop topic?</button>
     <div class="accordion-content">
       <p>Yes—we welcome student suggestions. Use our suggestion form or contact a team member to propose topics.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">29. Do you collaborate with professionals?</button>
@@ -238,12 +302,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">30. Are your events only mental health-related?</button>
     <div class="accordion-content">
       <p>Mostly, though we also run wellbeing activities such as art therapy, movement sessions, and social events that encourage holistic health.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">31. Can I volunteer with Bloom Mind?</button>
@@ -252,12 +318,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">32. Do you train peer supporters?</button>
     <div class="accordion-content">
       <p>Yes—volunteers receive introductory training on active listening, boundaries, and referral procedures before they begin supporting peers.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">33. Can I donate to Bloom Mind?</button>
@@ -266,12 +334,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">34. How can I become a peer supporter?</button>
     <div class="accordion-content">
       <p>Apply via our website volunteer form or speak to a team member at events. Selected applicants complete training before supporting students.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">35. Do you partner with other organisations?</button>
@@ -280,12 +350,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">36. What is mental health?</button>
     <div class="accordion-content">
       <p>Mental health refers to your emotional, psychological, and social wellbeing; how you think, feel, and interact with others.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">37. Why is mental health important for students?</button>
@@ -294,12 +366,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">38. What’s the difference between a counsellor and a peer supporter?</button>
     <div class="accordion-content">
       <p>A counsellor is a trained professional who provides clinical support; a peer supporter is a trained student offering empathetic, non-clinical support and referrals.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">39. Can talking to peers really help?</button>
@@ -308,12 +382,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">40. Is it okay to ask for help even if my problem feels small?</button>
     <div class="accordion-content">
       <p>Absolutely—no issue is too small. Asking for support early can prevent problems from escalating and help you feel better sooner.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">41. How much do your services cost?</button>
@@ -322,12 +398,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">42. Do I need special software for online services?</button>
     <div class="accordion-content">
       <p>No—most online services work in a standard web browser. For live video sessions we use common platforms like Zoom or Google Meet.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">43. Is Bloom Mind available after hours?</button>
@@ -336,12 +414,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">44. Do you have a newsletter?</button>
     <div class="accordion-content">
       <p>Yes—subscribe on our website to receive updates on events, new resources, and wellbeing tips.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">45. Can I remain completely anonymous?</button>
@@ -350,12 +430,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">46. Do you offer services in other languages?</button>
     <div class="accordion-content">
       <p>We try to accommodate students in English and some local languages where possible; please let us know your needs and we’ll do our best to help.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">47. How is Bloom Mind funded?</button>
@@ -364,12 +446,14 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">48. What if I’m not comfortable in group settings?</button>
     <div class="accordion-content">
       <p>You can use one-on-one peer sessions or online resources until you feel ready for group activities—no pressure to join groups.</p>
     </div>
   </div>
+
 
   <div class="accordion-item">
     <button class="accordion-btn">49. Do you provide mental health certificates?</button>
@@ -378,6 +462,7 @@
     </div>
   </div>
 
+
   <div class="accordion-item">
     <button class="accordion-btn">50. How do I contact Bloom Mind?</button>
     <div class="accordion-content">
@@ -385,11 +470,14 @@
     </div>
   </div>
 
+
 </div>
+
 
   </section>
 </main>
 <script src="script.js"></script>
+
 
 </body>
 </html>

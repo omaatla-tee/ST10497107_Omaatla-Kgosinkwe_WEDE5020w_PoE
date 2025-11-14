@@ -305,18 +305,37 @@ footer {
 
 /* Individual images */
 .peer-imgs {
-  width: 50%;        /* quarter of screen */
-  max-width: 300px;  /* don’t let them get too big */
+  width: 60%;        /* quarter of screen */
+  max-width: 500px;  /* don’t let them get too big */
   height: auto;      /* keep aspect ratio */
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+ }
+
+ .image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
+/*Added interactivity as per POE Part 3 requirements*/
+.peer-imgs {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.peer-imgs:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
 
 /* --- RESPONSIVE DESIGN ADJUSTMENTS --- */
 
 @media (max-width: 768px) {
   .peer-imgs {
-    width: 45%;  /* 2 side by side on tablets */
+    width: 55%;  /* 2 side by side on tablets */
   }
 }
 
@@ -332,7 +351,7 @@ footer {
 
 .ourteam-img .team-img {
     width: 60%;            /* default width on desktop */
-    max-width: 400px;      /* never exceed 400px */
+    max-width: 500px;      /* never exceed 400px */
     height: auto;          /* maintain aspect ratio */
     border-radius: 12px;   /* rounded corners */
     box-shadow: 0 6px 15px rgba(0,0,0,0.15); /* subtle shadow */
@@ -425,6 +444,8 @@ img {
         font-size: 1.6rem;
     }
 }
+
+
 
 
 
@@ -602,3 +623,34 @@ img {
   from {opacity: 0; transform: translateY(-20px);}
   to {opacity: 1; transform: translateY(0);}
 }
+
+/*Styling the newly added FAQs search section*/
+.faq-search {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#faqSearch {
+  width: 80%;
+  max-width: 500px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: box-shadow 0.3s ease;
+}
+
+#faqSearch:focus {
+  box-shadow: 0 0 8px rgba(0, 150, 136, 0.3);
+  outline: none;
+}
+
+#noResults {
+  margin-top: 15px;
+  color: #555;
+}
+
+
+
+
+
