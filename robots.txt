@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /inquiry.html
+Disallow: /contact.html
+
+Allow: /
+Sitemap: https://yourwebsite.com/sitemap.xml
+

@@ -894,3 +894,130 @@ img {
     margin-top: 0.5rem;
     color: #555;
 }
+
+
+/* styling the enquiry form */
+.enquiry-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between fields */
+    max-width: 600px;
+    margin: 0 auto; /* Center form */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.btn-submit {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-submit:hover {
+    background-color: #45a049;
+}
+
+.response {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+
+/* Contact Form Styles */
+.contact-section {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+.contact-section p {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1em;
+    color: #555;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-section label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-section input,
+.contact-section select,
+.contact-section textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-section textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.contact-section button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section button:hover {
+    background-color: #45a049;
+}
+
+.contact-section .response {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+

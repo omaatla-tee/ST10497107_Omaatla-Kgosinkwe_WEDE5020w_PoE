@@ -128,5 +128,108 @@ tabButtons.forEach(btn => {
 
 
 
+//form validation for enquiry form
+
+document.addEventListener("DOMContentLoaded", () => {
+    const enquiryForm = document.getElementById("enquiryForm");
+
+    if (enquiryForm) {
+        enquiryForm.addEventListener("submit", function(event) {
+            event.preventDefault(); // stop normal form submission
+
+            // Collect form data
+            const formData = {
+                fullName: document.getElementById("fullName").value.trim(),
+                email: document.getElementById("email").value.trim(),
+                phone: document.getElementById("phone").value.trim(),
+                enquiryType: document.getElementById("enquiryType").value,
+                details: document.getElementById("details").value.trim()
+            };
+
+            // Basic validation
+            if (formData.fullName.length < 3) {
+                showResponse("Full name must be at least 3 characters.", "error");
+                return;
+            }
+
+            if (!formData.email.includes("@")) {
+                showResponse("Please enter a valid email address.", "error");
+                return;
+            }
+
+            if (!/^\d{10}$/.test(formData.phone)) {
+                showResponse("Phone number must be exactly 10 digits.", "error");
+                return;
+            }
+
+            if (!formData.enquiryType) {
+                showResponse("Please select an enquiry type.", "error");
+                return;
+            }
+
+            if (formData.details.length < 10) {
+                showResponse("Details must be at least 10 characters long.", "error");
+                return;
+            }
+
+            // Simulate AJAX request (no backend required)
+            setTimeout(() => {
+                let reply = "";
+
+                switch (formData.enquiryType) {
+                    case "service":
+                        reply = "Our services are available! A team member will contact you shortly.";
+                        break;
+                    case "product":
+                        reply = "Product pricing varies — we will send you a cost estimate.";
+                        break;
+                    case "volunteer":
+                        reply = "Thank you for your interest! Volunteer applications are open.";
+                        break;
+                    case "sponsor":
+                        reply = "We appreciate your willingness to sponsor! A coordinator will reach out.";
+                        break;
+                }
+
+                showResponse(reply, "success");
+            }, 800);
+        });
+
+        function showResponse(message, type) {
+            const responseEl = document.getElementById("responseMessage");
+            responseEl.textContent = message;
+            responseEl.style.color = type === "error" ? "red" : "green";
+        }
+    }
+});
 
 
+// Contact Form Validation and AJAX Submission
+document.addEventListener("DOMContentLoaded", function () {
+    const contactForm = document.getElementById("contactForm");
+    const contactResponse = document.getElementById("contactResponseMessage");
+
+    contactForm.addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent default form submission
+
+        // Basic validation check
+        const name = document.getElementById("contactName").value.trim();
+        const email = document.getElementById("contactEmail").value.trim();
+        const phone = document.getElementById("contactPhone").value.trim();
+        const type = document.getElementById("messageType").value;
+        const message = document.getElementById("contactMessage").value.trim();
+
+        if (!name || !email || !phone || !type || !message) {
+            contactResponse.style.color = "red";
+            contactResponse.textContent = "Please fill in all fields correctly.";
+            return;
+        }
+
+        // If all validations pass, simulate AJAX submission
+        contactResponse.style.color = "green";
+        contactResponse.textContent = "Thank you! Your message has been sent.";
+
+        // Reset form
+        contactForm.reset();
+    });
+});
