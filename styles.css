@@ -151,6 +151,42 @@ section.contact p {
     margin-bottom: 1.5rem;
 }
 
+/* VIDEO SECTION STYLING */
+.video-section {
+    text-align: center; /* Centers title and video */
+    margin: 2rem auto;
+}
+
+.video-title {
+    font-family: 'Lato', sans-serif; /* or another slim/thin font */
+    font-weight: 300; /* thin look */
+    font-size: 1.8rem; 
+    color: rgb(78, 38, 140); /* match your headings color */
+    margin-bottom: 1rem;
+}
+
+.video-wrapper img {
+    width: calc(100% - 4cm); /* make it smaller around 4cm total */
+    max-width: 520px; /* optional: prevent oversized images */
+    height: auto;
+    border: 3px solid rgb(78, 38, 140); /* heading color border */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-wrapper img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.video-wrapper figcaption {
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+    color: #555;
+}
+
+
 /* styling explore services section*/
 
 .feature-card {
@@ -166,6 +202,20 @@ section.contact p {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
+/* container for cards to be side by side */
+.cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; /* lets them stack on smaller screens */
+}
+
+.cards-container .card {
+    flex: 1 1 45%; /* two cards side by side on desktop, adjust width */
+    max-width: 400px; /* optional max width */
+}
+
+
 
 /* styling for testimonials */
 
@@ -207,6 +257,91 @@ section.contact p {
   text-align: right;
   color: rgb(80, 30, 120);
 }
+
+
+
+
+
+/* Testimonials carousel styling */
+.testimonials-carousel {
+    background-color: rgb(245, 240, 250);
+    border-radius: 50px;
+    padding: 40px 20px;
+    margin: 40px auto;
+    max-width: 1000px;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonials-carousel h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(78, 38, 140);
+    font-weight: 400;
+}
+
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease;
+}
+
+.testimonial {
+    flex: 0 0 300px;  /* fixed width per card */
+    background-color: rgb(250, 245, 255);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: rgb(50, 50, 50);
+    line-height: 1.5;
+}
+
+.testimonial .name {
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: right;
+    color: rgb(80, 30, 120);
+}
+
+/* Carousel buttons */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(148, 110, 219);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-btn:hover {
+    background-color: rgb(120, 80, 200);
+}
+
+.carousel-btn.prev {
+    left: 10px;
+}
+
+.carousel-btn.next {
+    right: 10px;
+}
+
 
 /* cta button styling*/
 
@@ -330,6 +465,50 @@ footer {
   box-shadow: 0 8px 15px rgba(0,0,0,0.3);
 }
 
+/* click on image to view full picture*/
+.img-modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+    align-items: center;
+    justify-content: center;
+}
+
+/* Modal image */
+.img-modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 12px;
+    animation: zoomIn 0.3s ease;
+}
+
+/* Close button */
+.img-close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.img-close:hover {
+    color: #ff8080;
+}
+
+/* Smooth zoom animation */
+@keyframes zoomIn {
+    from { transform: scale(0.7); opacity: 0; }
+    to   { transform: scale(1); opacity: 1; }
+}
 
 /* --- RESPONSIVE DESIGN ADJUSTMENTS --- */
 
@@ -343,6 +522,29 @@ footer {
   .peer-imgs {
     width: 90%;  /* stack full-width on small phones */
   }
+}
+
+/*More homepage interactivity styles*/
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 3s ease forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 
@@ -654,3 +856,41 @@ img {
 
 
 
+
+
+
+
+/* VIDEO SECTION STYLING */
+.video-section {
+    text-align: center; /* Centers title and video */
+    margin: 2rem auto;
+}
+
+.video-title {
+    font-family: 'Lato', sans-serif; /* or another slim/thin font */
+    font-weight: 300; /* thin look */
+    font-size: 1.8rem; 
+    color: rgb(78, 38, 140); /* match your headings color */
+    margin-bottom: 1rem;
+}
+
+.video-wrapper img {
+    width: calc(100% - 4cm); /* make it smaller around 4cm total */
+    max-width: 520px; /* optional: prevent oversized images */
+    height: auto;
+    border: 3px solid rgb(78, 38, 140); /* heading color border */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-wrapper img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.video-wrapper figcaption {
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+    color: #555;
+}
